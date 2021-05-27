@@ -4,16 +4,59 @@
 <head>
     <title>Page Title</title>
     <meta charset="UTF-8" />
+
+
+    <style>
+        #scoreBoard {
+
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            width:100%;
+            border-style: solid;
+            border-width: 2px;
+            height: 60px;
+
+        }
+
+        .button-div{
+
+            width:100%;
+            display:flex;
+            justify-content: center;
+        }
+
+
+        
+    </style>
 </head>
 
 <body>
-    <script src="myscript.js">
+
+
+    <div id=scoreBoard>
+
+        <div id="playerScore"> </div>
+        <div id="computerScore"> </div>
+
+    </div>
+    <div class="button-div">
+
+        <input type="button" value="Rock">
+        <input type="button" value="Paper">
+        <input type="button" value="Scissors">
+        <input type="button" value="Reset">
+    </div>
+
+
+</body>
+<script src="myscript.js">
     // Your JavaScript goes here!
 
 
 
 
-    </script>
-</body>
+</script>
 
 </html>
